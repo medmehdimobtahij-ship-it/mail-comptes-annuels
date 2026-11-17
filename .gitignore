@@ -1,0 +1,9 @@
+# Données de chaque installation : jamais dans le dépôt (comptes, clients, sessions, jetons chiffrés, clé secrète)
+data/
+data-demo/
+config.json
+*.key
+# Caches
+__pycache__/
+*.pyc
+.pytest_cache/

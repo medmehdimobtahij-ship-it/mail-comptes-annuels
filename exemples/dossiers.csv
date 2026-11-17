@@ -1,0 +1,5 @@
+societe;siren;forme_juridique;regime;tva;debut_exercice;cloture;prenom;nom;email;cc;civilite;tutoiement;resultat_net;impot_societes;loyers_6132;indemnite_occupation;banque;solde_banque
+ATELIER DU CHÊNE FICTIF;000123455;SARL;IS;mensuelle;01/01/2025;31/12/2025;Alice;Martin;alice.martin@example.fr;;Mme;Vous;24 310,55;3 980;;;Banque Exemple;2 150,00
+PLOMBERIE EXEMPLE;000234567;SAS;IS;trimestrielle;01/07/2024;30/06/2025;Bruno;Leroy;bruno@example.com;compta@example.com;M;Tu;-4 200;-600;;;Crédit Fictif;18 400
+SCI DES TILLEULS FICTIVE;000345678;Société civile immobilière;IR;non assujettie;;31/12/2025;Chloé;Bernard;chloe.bernard@example.fr;;Mme;Vous;9 870;;;;Banque Exemple;5 300
+CAFÉ DE LA DÉMO;000456780;EURL;IS;annuelle;;31/12/2025;David;Petit;david.petit@example.com;;M;Tu;12 040;1 810;;4 789,62;Banque Exemple;9 900

@@ -1,0 +1,21 @@
+# Tests de bout en bout : vrai serveur PHP, faux Microsoft et faux Pennylane (tests/commun.py), règles du mail en PHP, mode démo.
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: windows-latest  # l'outil tourne sur les postes Windows du cabinet (signatures Outlook du PC)
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: curl, openssl, zip, dom, mbstring, simplexml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pytest requests cryptography
+      - run: python -m pytest tests -q

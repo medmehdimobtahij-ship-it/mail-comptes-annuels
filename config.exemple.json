@@ -1,0 +1,8 @@
+{
+  "_lisez_moi": "Copiez ce fichier en config.json (ignoré par git) et adaptez-le. Chaque clé peut aussi venir d'une variable d'environnement MCA_<CLE en majuscules> (ex. MCA_MICROSOFT_CLIENT_ID). Tout est facultatif : sans application Microsoft, la connexion se fait par mot de passe et le mail s'ouvre dans votre messagerie ; sans jeton Pennylane (à coller dans Paramètres), les clients s'importent d'un fichier ou se saisissent à la main.",
+  "cabinet_nom": "Cabinet Exemple",
+  "domaine": "example.fr",
+  "comptes": "claire:Claire Moreau,paul:Paul Bernard",
+  "microsoft_client_id": "",
+  "https": ""
+}
